@@ -85,17 +85,17 @@ automatically, and generates the NIS2 compliance documentation.
 
 ## Key features
 
-- 🪤 **7 multi-protocol honeypots** + canary tokens
-- 🧠 **Behavioural analysis with AI** (5 coordinated agents)
-- 🚫 **Automatic blocking** of attackers
-- 📊 **Real-time web dashboard** (WebSocket) over **HTTPS**
-- 🔐 **Security**: JWT auth, RBAC (admin/analyst/viewer), **MFA TOTP**,
+- **7 multi-protocol honeypots** + canary tokens
+- **Behavioural analysis with AI** (5 coordinated agents)
+- **Automatic blocking** of attackers
+- **Real-time web dashboard** (WebSocket) over **HTTPS**
+- **Security**: JWT auth, RBAC (admin/analyst/viewer), **MFA TOTP**,
   CSP/HSTS headers, encrypted secrets (Fernet)
-- 📁 **Reliable persistence** (SQLite + in-memory cache), **automatic
+- **Reliable persistence** (SQLite + in-memory cache), **automatic
   encrypted backups**
-- 🇪🇺 **NIS2 compliance**: automatic CSIRT notification (Article 23),
+- **NIS2 compliance**: automatic CSIRT notification (Article 23),
   **verified** tamper-evident audit hash-chain, retention policy
-- 📄 **Reports** in STIX 2.1 format for submission to the national CSIRT
+- **Reports** in STIX 2.1 format for submission to the national CSIRT
 
 ---
 
