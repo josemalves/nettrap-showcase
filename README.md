@@ -1,7 +1,8 @@
 # NetTrap — AI-Powered Honeypot Platform (NIS2)
 
-> **Threat detection & response for SMEs** — 7 multi-protocol honeypots,
-> behavioural analysis with AI, and EU NIS2 compliance. Built at **Expertmode**.
+> **Threat detection that protects your business and supports NIS2 compliance.**
+> 7 multi-protocol honeypots, behavioural analysis with AI, and NIS2 Article 23
+> incident reporting. Built at **Expertmode**.
 
 ![status](https://img.shields.io/badge/status-in%20production-success)
 ![python](https://img.shields.io/badge/Python-3.12-blue)
@@ -93,8 +94,9 @@ automatically, and generates the NIS2 compliance documentation.
   CSP/HSTS headers, encrypted secrets (Fernet)
 - **Reliable persistence** (SQLite + in-memory cache), **automatic
   encrypted backups**
-- **NIS2 compliance**: automatic CSIRT notification (Article 23),
-  **verified** tamper-evident audit hash-chain, retention policy
+- **NIS2 support**: Article 23 incident reports generated for manual
+  submission to the CSIRT, **verified** tamper-evident audit hash-chain,
+  retention policy
 - **Reports** in STIX 2.1 format for submission to the national CSIRT
 
 ---
